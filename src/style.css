@@ -93,3 +93,11 @@ header > h3{
 
     color: #FFFFFF;
 }
+
+.react-js-logo{
+    position: absolute;
+    width: 263px;
+    height: 520px;
+    right: 0px;
+    top: 198px;
+}

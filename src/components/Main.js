@@ -1,6 +1,7 @@
 import React from "react";
 import "../style.css";
-import bullet from "../images/Ellipse 1.png"
+import bullet from "../images/Ellipse 1.png";
+import reactLogo from "../images/reactjs-icon 2.png"
 
 export default function Main(){
     return (
@@ -28,6 +29,7 @@ export default function Main(){
                     <p>Powers thousands of enterprise apps, including mobile apps</p>
                     </div>
             </div>
+            <img src={reactLogo} alt="react-logo" className="react-js-logo"></img>
         </div>
     )
 }
