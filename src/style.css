@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #282D35;
+}
+
+.main{
+    width: 100%;
+    padding-top: 110px;
+}
+
+.main > p:first-child{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+
+    padding-bottom: 30px;
+}
+
+.points{
+    margin-left: 35%;
+}
+
+.points > div{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.points > div > img{
+    width: 11px;
+    height: 11px;
+    margin-right: 18px;
+    margin-top: 4px;
+}
+
+.points > div > p{
+    width: 420px;
+    height: 17.81px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
