@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    background-color: #282D35;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -40,4 +44,52 @@ header > h3{
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
+}
+
+.main{
+    width: 100%;
+    padding-top: 110px;
+}
+
+.main > p:first-child{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+
+    padding-bottom: 50px;
+}
+
+.points{
+    margin-left: 30%;
+}
+
+.points > div{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.points > div > img{
+    width: 11px;
+    height: 11px;
+    margin-right: 18px;
+    margin-top: 8px;
+}
+
+.points > div > p{
+    width: 420px;
+    height: 17.81px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #FFFFFF;
 }
