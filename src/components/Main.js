@@ -1,11 +1,12 @@
 import React from "react";
-import "../style.css";
+import "../styles/style.css";
+import "../styles/main.css";
 import bullet from "../images/Ellipse 1.png";
-import reactLogo from "../images/reactjs-icon 2.png"
+import reactLogo from "../images/reactjs-icon 2.png";
 
-export default function Main(){
+export default function Main(props){
     return (
-        <div className="main">
+        <div className={`main ${props.theme ? "dark" : ""}`}>
             <p>Fun facts about React</p>
             <div className="points">
                 <div>
